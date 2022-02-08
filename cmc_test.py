@@ -22,5 +22,5 @@ sum_market_cap = sum(dict_market_cap.values())
 print(f'sum_market_cap: {sum_market_cap}')
 
 map_market_cap_ratio = {k: (v / sum_market_cap) for k, v in dict_market_cap.items()}
-print('map_market_cap_ratio')
+print('map_market_cap_ratio: ')
 pprint.pp(map_market_cap_ratio)
